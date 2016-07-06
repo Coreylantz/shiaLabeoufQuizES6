@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marveling Marvels</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	
+	<div class="startContainer">
+		<button id="startButton">
+			<h1>Start</h1>
+		</button>
+	</div>
+
+	<div class="quizContainer container hidden">
+		<form class="quiz">
+			<fieldset class="question questionOne">
+				<h2>Do you want to be famous?</h2>
+				<div class="questionContainer">
+					<input type="radio" id="hellYeah" value="8" name="questionOne">
+					<label for="hellYeah">Hell Yeah!</label>
+					<input type="radio" id="never" value="1" name="questionOne">
+					<label for="never">Never!</label>
+					<input type="radio" id="notFamous" value="27" name="questionOne">
+					<label for="notFamous">I'm not famous, anymore</label>
+				</div>
+			</fieldset>
+			
+			<fieldset class="question questionTwo">
+				<h2>What is your opinion on art?</h2>
+				<div class="questionContainer">
+					<input type="radio" id="walkingArt" value="15" name="questionTwo">
+					<label for="walkingArt">I am walking art</label>
+					<input type="radio" id="veryEmotional" value="20" name="questionTwo">
+					<label for="veryEmotional">I get very emotional</label>
+					<input type="radio" id="rap" value="3" name="questionTwo">
+					<label for="rap">My rap speaks for me</label>
+				</div>
+			</fieldset>
+			
+			<fieldset class="question questionThree">
+				<h2>How motivated are you?</h2>
+				<div class="questionContainer">
+					<input type="radio" id="doIt" value="3" name="questionThree">
+					<label for="doIt">Just do it!</label>
+					<input type="radio" id="dreams" value="3" name="questionThree">
+					<label for="dreams">My dreams are dreams</label>
+					<input type="radio" id="nothingImpossible" value="10" name="questionThree">
+					<label for="nothingImpossible">Nothing is impossible</label>
+				</div>
+			</fieldset>
+			
+			<fieldset class="question questionFour">
+				<h2>What is your favourite drink?</h2>
+				<div class="questionContainer">
+					<input type="radio" id="whiskey" value="9" name="questionFour">
+					<label for="whiskey">Whiskey</label>
+					<input type="radio" id="youngToDrink" value="0" name="questionFour">
+					<label for="youngToDrink">I am too young to drink</label>
+					<input type="radio" id="rehab" value="8" name="questionFour">
+					<label for="rehab">Rehab</label>
+				</div>
+			</fieldset>
+			
+			<fieldset class="question questionFive">
+				<h2>What do you do for fun?</h2>
+				<div class="questionContainer">
+					<input type="radio" id="groceryStore" value="1" name="questionFive">
+					<label for="groceryStore">Go to the grocery store</label>
+					<input type="radio" id="hunt" value="50" name="questionFive">
+					<label for="hunt">Hunt for fun</label>
+					<input type="radio" id="watchMovies" value="9" name="questionFive">
+					<label for="watchMovies">Watch movies</label>
+				</div>
+			</fieldset>
+			
+			<input type="submit" id="getResults" value="Do It!">
+		</form>
+	</div>
+
+	<div class="answers container hidden"></div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+</html>

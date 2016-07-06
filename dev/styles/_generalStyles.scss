@@ -1,0 +1,19 @@
+// GENERAL STYLES
+html {
+	font-size: 62.5%;
+
+}
+
+body {
+	background-color: $green;
+	color: $text;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}

@@ -1,0 +1,24 @@
+@import 'setup';
+@import 'variables';
+@import 'typography';
+@import 'generalStyles';
+
+// Start Section
+
+.startContainer {
+	display: flex;
+	max-width: 1000px;
+	margin: auto;
+	padding: 150px;
+}
+
+#startButton {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+}
+
+
+.hidden {
+	display: none;
+}
